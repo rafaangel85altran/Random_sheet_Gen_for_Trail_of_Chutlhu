@@ -81,10 +81,6 @@ skills = [
     {'type': "General",         'name': 'Sigilo',                 'value': 0},   
 ]
 
-
-#print(incrementStat(skills[0].get('value'),2))
-#print(skills[0].get('type'), skills[0].get('name'), skills[0].get('value'))
-
 def printSkills():
     print("Habilidades Academicas")
     for dicts in skills:
