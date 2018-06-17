@@ -16,20 +16,24 @@ def getRandomFromFile(fileName):
 def getRandomJob(motivation):
     
     jobSuitedForMotiv = {
-    'Arrogancia': ['Alienista', 'Cientifico'],
-    'Aventura': ['Criminal', 'Militar', 'Parapsicologo', 'Piloto'],
+    'Arrogancia':               ['Alienista', 'Cientifico'],
+    'Aventura':                 ['Criminal', 'Militar', 'Parapsicologo', 'Piloto'],
     'Coleccionar Antiguedades': ['Aticuario', 'Arqueologo', 'Miembro del Clero', 'Profesor'],
-    'Curiosidad': ['Cienfitico', 'Detective de policia', 'Investigador privado', 'Parapsicologo', 'Periodista'],
-    'Deber': ['Miembro del Clero', 'Detective de policia', 'Medico', 'Militar'],
-    'En la sangre': ['Anticuario', 'Diletante'],
-    'Erudicion': ['Arqueologo', 'Cientifico', 'Profesor'],
-    'Hastio': ['Artista', 'Diletante', 'Militar'],
-    'Impacto subito': ['Alienista','Anticuario', 'Arqueologo', 'Artista', 'Cientifico', 'Criminal', 'Detective de policia', 'Diletante', 'Enfermero', 'Escritor', 'Investigador privado', 'Medico', 'Miembro del Clero', 'Militar', 'Parapsicologo', 'Periodista', 'Piloto', 'Profesor', 'Vagabundo'],
-    'Mala suerte': ['Criminal', 'Vagabundo'],
-    'Sed de conocimientos': ['Arqueologo', 'Parapsicologo', 'Profesor'],
-    'Seguidor': ['Detective de policia', 'Medico', 'Militar'],
-    'Sensibilidad Artistica': ['Artista', 'Diletante', 'Escritor'],
-    'Venganza': ['Criminal', 'Investigador privado']
+    'Curiosidad':               ['Cienfitico', 'Detective de policia', 
+                                 'Investigador privado', 'Parapsicologo', 'Periodista'],
+    'Deber':                    ['Miembro del Clero', 'Detective de policia', 'Medico', 'Militar'],
+    'En la sangre':             ['Anticuario', 'Diletante'],
+    'Erudicion':                ['Arqueologo', 'Cientifico', 'Profesor'],
+    'Hastio':                   ['Artista', 'Diletante', 'Militar'],
+    'Impacto subito':           ['Alienista','Anticuario', 'Arqueologo', 'Artista', 'Cientifico', 'Criminal', 
+                                 'Detective de policia', 'Diletante', 'Enfermero', 'Escritor', 'Investigador privado', 
+                                 'Medico', 'Miembro del Clero', 'Militar', 'Parapsicologo', 'Periodista', 'Piloto', 
+                                 'Profesor', 'Vagabundo'],
+    'Mala suerte':              ['Criminal', 'Vagabundo'],
+    'Sed de conocimientos':     ['Arqueologo', 'Parapsicologo', 'Profesor'],
+    'Seguidor':                 ['Detective de policia', 'Medico', 'Militar'],
+    'Sensibilidad Artistica':   ['Artista', 'Diletante', 'Escritor'],
+    'Venganza':                 ['Criminal', 'Investigador privado']
     }
     
     if motivation in jobSuitedForMotiv:
