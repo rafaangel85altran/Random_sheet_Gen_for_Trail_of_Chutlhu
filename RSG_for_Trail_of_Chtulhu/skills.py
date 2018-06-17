@@ -82,4 +82,30 @@ skills = [
 ]
 
 
-print(incrementStat(skills[0].get('value'),2))
+#print(incrementStat(skills[0].get('value'),2))
+#print(skills[0].get('type'), skills[0].get('name'), skills[0].get('value'))
+
+def printSkills():
+    print("Habilidades Academicas")
+    for dicts in skills:
+        if 'Academica' in dicts.get('type'):
+            print('    ',dicts.get('name'), dicts.get('value'))
+            
+    print("Habilidades Interpersonales")
+    
+    for dicts in skills:
+        if 'Interpersonal' in dicts.get('type'):
+            print('    ',dicts.get('name'), dicts.get('value'))
+            
+    print("Habilidades Tecnicas")
+    
+    for dicts in skills:
+        if 'Tecnica' in dicts.get('type'):
+            print('    ',dicts.get('name'), dicts.get('value'))
+            
+    print("Habilidades Generales")
+    for dicts in skills:
+        if 'General' in dicts.get('type'):
+            print('    ',dicts.get('name'), dicts.get('value'))
+                                   
+printSkills()
