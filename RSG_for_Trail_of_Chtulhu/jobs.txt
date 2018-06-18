@@ -1,0 +1,19 @@
+Alienista
+Anticuario
+Arqueologo
+Artista
+Cientifico
+Criminal
+Detective de policia
+Diletante
+Enfermero
+Escritor
+Investigador privado
+Medico
+Miembrod el Clero
+Militar
+Parapsicologo
+Periodista
+Piloto
+Profesor
+Vagabundo
