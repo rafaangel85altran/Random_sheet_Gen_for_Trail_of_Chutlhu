@@ -10,7 +10,7 @@ Enfermero
 Escritor
 Investigador privado
 Medico
-Miembrod el Clero
+Miembro del Clero
 Militar
 Parapsicologo
 Periodista
