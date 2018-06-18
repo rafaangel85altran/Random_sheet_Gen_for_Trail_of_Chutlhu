@@ -1,19 +1,14 @@
-Alienista
-Anticuario
-Arqueologo
-Artista
-Cientifico
-Criminal
-Detective de policia
-Diletante
-Enfermero
-Escritor
-Investigador privado
-Medico
-Miembrod el Clero
-Militar
-Parapsicologo
-Periodista
-Piloto
-Profesor
-Vagabundo
+Arrogancia
+Aventura
+Coleccionar Antiguedades
+Curiosidad
+Deber
+En la sangre
+Erudicion
+Hastio
+Impresion subita
+Mala suerte
+Sed de conocimientos
+Seguidor
+Sensibilidad Artistica
+Venganza

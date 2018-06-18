@@ -6,25 +6,32 @@ Created on 12 jun. 2018
 
 import random
 
-def getCompleteName():
+jobSuitedForMotiv = [
+        {"motivation": "Arrogancia", "suitedJobs": "Alienista"},
+        {"motivation": "Aventura", "suitedJobs": "Criminal  Militar Parapsicologo Piloto"},
+        {"motivation": "Coleccionar Antiguedades", "suitedjobs": "Anticuario Arqueologo Miembro del Clero Profesor"}
+    ]
 
+def getRandomFromFile(fileName):
     try:
-        lines = open('firstNames.txt').read().splitlines()
-        name = random.choice(lines)
-        lines = open('lastNames.txt').read().splitlines()
-        name += " "
-        name += random.choice(lines)
-        return name
+        lines = open(fileName).read().splitlines()
+        lineChoiced = random.choice(lines)
+        return lineChoiced
     except Exception:
-        print("File could not be readed, check it firstNamesComplete.txt is inside the folder ")
+        print("file with choices could not be readed")
+    
+#Name Generation
+name = getRandomFromFile("firstNames.txt")
+name += " "
+name += getRandomFromFile("LastNames.txt")
 
-def getJob():
-    try:
-        lines = open('jobs.txt').read().splitlines()
-        job = random.choice(lines)
-        return job
-    except Exception:
-        print("File could not be readed, check it jobs.txt is inside the folder ")
+#Motivation Generator
+motivation = getRandomFromFile("motivations.txt")
 
-print("Nombre Personaje :", getCompleteName())
-print("Profesion: ", getJob())
+#Job Generation
+suitedJob = next(item for item in jobSuitedForMotiv if item["motivation"] == "Arrogancia")
+#job = getRandomFromFile("jobs.txt")
+job = "Alienista"
+
+if job in suitedJob.values():
+    print(job)
