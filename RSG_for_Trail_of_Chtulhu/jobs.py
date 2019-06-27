@@ -33,7 +33,7 @@ cientificOptionalSkills = ['Astronomia', 'Biologia', 'Criptografia', 'Fisica', '
 # And another technic skill
 criminalProJob = [
     'Bajos fondos', 'Cerrajeria', 'Escaramuza',  'Intimidacion', 'Regatear', 'Seguir', 
-    'Sebtir el peligro', 'Sigilo']
+    'Sentir el peligro', 'Sigilo']
 
 DetectiveProJob = [
     'Armas de fuego', 'Atletismo', 'Conduccion', 'Derecho', 'Evaluar sinceridad', 

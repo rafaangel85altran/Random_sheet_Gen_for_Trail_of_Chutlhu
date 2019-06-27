@@ -3,7 +3,6 @@ Created on Jun 17, 2018
 
 @author: joanrafaelangelperez
 '''
-from healthStabilitySanity import incrementStat
 
 skills = [
     
