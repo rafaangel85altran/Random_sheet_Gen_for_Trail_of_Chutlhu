@@ -39,6 +39,7 @@ def getRandomJob(motivation):
     if motivation in jobSuitedForMotiv:
         job = random.choice(jobSuitedForMotiv[motivation])
         return job
+    
 def printNameJobMotiv():
     #Name Generation
     name = getRandomFromFile("firstNames.txt")

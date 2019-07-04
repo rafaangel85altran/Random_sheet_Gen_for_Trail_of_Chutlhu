@@ -6,14 +6,13 @@ import mainStats
 from nameJobMotiv import printNameJobMotiv
 from skills import printSkills
 from mainStats import printMainStats
-from sheet_functions import incrementStat
 
-incrementStat(mainStats.Health, 6)
+mainStats.Health += 6
 
 print("#####################################################################")
-#printNameJobMotiv()
+printNameJobMotiv()
 print("                                                                     ")
 printMainStats()
 print("                                                                     ")
-#printSkills()
+printSkills()
 print("#####################################################################") 

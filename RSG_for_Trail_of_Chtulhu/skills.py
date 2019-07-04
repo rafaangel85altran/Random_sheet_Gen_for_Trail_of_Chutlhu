@@ -97,7 +97,7 @@ def printSkills():
     for dicts in skills:
         if 'Tecnica' in dicts.get('type'):
             print('    ',dicts.get('name'), dicts.get('value'))
-            
+
     print("Habilidades Generales")
     for dicts in skills:
         if 'General' in dicts.get('type'):
